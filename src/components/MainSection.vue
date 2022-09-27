@@ -2,7 +2,7 @@
     <main>
         <section class="container d-flex flex-wrap justify-content-center h-100 align-items-center">
             <div class="fl-card d-flex align-items-center flex-column p-3 text-center gap-3 rounded-4" v-for="(item) in exportedArray" :key="item.poster">
-                <img :src="item.poster" alt="album-cover">
+                <img :src="item.poster" alt="album-cover" class="rounded-4">
                 <h3>{{ item.title }}</h3>
                 <h4 class="fl-grey">{{ item.author }}</h4>
                 <h4 class="fl-grey">{{ item.year }}</h4>
